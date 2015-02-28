@@ -20,7 +20,8 @@ for accessing the admin interface of Django
 The API routes are: (Headers = Authentication : Token < token >)
 
 Round 1:
-`	1. localhost/join/
+
+```	1. localhost/join/
 	user sends request to join the game for level 1
 	2. localhost/join/status/
 	user sends request to know the status of how many players joined the game
@@ -29,7 +30,8 @@ Round 1:
 	4. localhost/round/1/
 	user sends the his turn using POST according to his playing order(integer if 1st, and list if 2nd)
 	5. localhost/status/1/
-	user sends request to know the status of the ongoing game, the number of points, new order`
+	user sends request to know the status of the ongoing game, the number of points, new order
+```
 
 After round 1, referee shuts down the eliminated players and thus prevents accessing the game further.
 The selected players wait till the 4 winners are selected and new games are allocated for round2.
