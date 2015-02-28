@@ -15,7 +15,7 @@ All requests from user to referee are authenticated by Authentication Token gene
 localhost/admin
 for accessing the admin interface of Django
 
-The API routes are: (Headers = Authentication : Token < 'token' >)
+The API routes are: (Headers = Authentication : Token < token >)
 Round 1:
 1. localhost/join/
 user sends request to join the game for level 1
